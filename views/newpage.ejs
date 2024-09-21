@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Post</title>
+    <style>
+        body {
+            background-color: #121212;
+            font-family: Arial, sans-serif;
+            color: #f0f0f0;
+            margin: 0;
+            padding: 20px;
+        }
+
+        a {
+            color: #4CAF50;
+            text-decoration: none;
+            padding: 10px;
+            display: inline-block;
+            margin-bottom: 20px;
+            transition: background-color 0.3s;
+        }
+
+        a:hover {
+            background-color: #333;
+            color: white;
+        }
+
+        form {
+            max-width: 515px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #1d1d1d;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+    padding-top: 5%;
+    padding-bottom: 5%;
+        }
+
+        label {
+            font-weight: bold;
+            margin-bottom: 5px;
+            color: #e0e0e0;
+            margin:5%;
+        }
+
+        input[type="text"], textarea {
+            width: 85%;
+    padding: 12px;
+    margin: 15px 0 15px 33px;
+    border: 1px solid #3b86b9;
+    border-radius: 5px;
+    background-color: #2a2a2a;
+    color: #f0f0f0;
+        }
+
+        input[type="text"]:focus, textarea:focus {
+            border-color: #4CAF50;
+            outline: none;
+        }
+
+        button {
+            margin-left: 25%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 50%;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+
+        textarea {
+            resize: none; /* Prevent resizing */
+            height: 200px; /* Fixed height for the textarea */
+        }
+    </style>
+</head>
+<body>
+    <a href="/posts">Back</a>
+    <form action="/posts" method="post">
+        <label for="name">Enter your name</label>
+        <input type="text" name="name" id="name" required>
+<br>
+        <label for="post">Enter your post</label>
+        <textarea name="post" id="post" rows="20" placeholder="Enter your post here" required></textarea>
+
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
