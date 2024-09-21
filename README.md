@@ -1,9 +1,9 @@
-# User-Post-Creation-Platform
+# User-Post-Creation-Platform:
 The User Post Creation Platform is a full-stack web app where users can create and share posts in real-time. Built with HTML, CSS, JavaScript, Node.js, and SQL, it features a responsive design, secure data management, and dynamic updates without page reloads, offering a smooth user experience.
 
 ![Alt text](https://github.com/ratneshnamdeo0207/User-Post-Creation-Platform/blob/main/Home%20Page.png?raw=true)
 
-Home Page Overview
+Home Page Overview:
 Welcome to the homepage of our project! This platform allows users to create and share their thoughts in a vibrant and engaging environment. The homepage features a clean, modern design with a user-friendly interface, making it easy to navigate and interact with posts.
 
 Key Features:
@@ -13,7 +13,7 @@ Interactive Elements: Enjoy hover effects and responsive design for an engaging 
 
 ![Alt text](https://github.com/ratneshnamdeo0207/User-Post-Creation-Platform/blob/main/Create%20new%20post.png?raw=true)
 
-Create a New Post
+Create a New Post:
 This feature allows users to easily create and share their posts. The user-friendly interface guides you through entering your name and the content of your post.
 
 Key Features:
@@ -28,7 +28,7 @@ Click the "Submit" button to publish your post.
 
 ![Alt text](https://github.com/ratneshnamdeo0207/User-Post-Creation-Platform/blob/main/View%20Post.png?raw=true)
 
-\View Post Page
+\View Post Page:
 The View Post page allows users to access and read individual posts created within the platform. Upon selecting a post, users are presented with a clean and organized layout that highlights the author's name and the post content.
 
 Features:
@@ -37,7 +37,7 @@ Author Display: The username of the post creator is prominently displayed for ea
 Post Content: The main content of the post is showcased in a visually appealing manner, making it easy for users to read and engage.
 Edit and Detail Options: Users can easily navigate to edit the post or view more details, enhancing the interactivity and usability of the platform.
 
-![Alt text]([URL-of-your-image](https://github.com/ratneshnamdeo0207/User-Post-Creation-Platform/blob/main/Edit%20Page.png?raw=true))
+![Alt text](https://github.com/ratneshnamdeo0207/User-Post-Creation-Platform/blob/main/Edit%20Page.png?raw=true))
 
 Edit Post Page
 The Edit Post page provides users with a straightforward interface to modify their existing posts. This feature enhances user control and encourages engagement by allowing users to update their content as needed.
